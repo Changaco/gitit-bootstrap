@@ -1,5 +1,5 @@
 body {
-    padding: 0 0 15px;
+    padding: 15px 0;
 }
 
 h1.pageTitle { font-size: 197%; margin: 0.2em 0 .5em; }
@@ -26,7 +26,6 @@ h6 > a:link, h6 > a:active, h6 > a:hover, h6 > a:focus, h6 > a:visited {
 
 #sidebar {
     font-size: 90%;
-    padding-top: 15px;
 }
 
 #sidebar ul {
@@ -53,47 +52,52 @@ h6 > a:link, h6 > a:active, h6 > a:hover, h6 > a:focus, h6 > a:visited {
 }
 
 #userbox {
-    text-align: right;
+    float: right;
 }
 
 #userbox > a {
-    display: inline-block;
+    display: block;
+    float: right;
     padding: 10px;
 }
 
-.revision {
-    line-height: 30px;
+h2.revision {
+    margin-top: 0;
+}
+
+small.revision {
+    display: inline-block;
+    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
+    vertical-align: middle;
     white-space: nowrap;
 }
 
 .tabs {
-    float: right;
+    float: left;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .tabs > li {
     float: left;
-}
-.tabs > li + li {
-    margin-left: 2px;
+    margin-bottom: -1px;
 }
 .tabs > li > a {
-    border-radius: 4px;
-    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
     display: block;
-    padding: 5px 10px;
+    margin-right: 2px;
+    padding: 10px 15px;
     position: relative;
 }
-.tabs > li > a:hover {
-    background-color: #4b9ee6;
-    text-decoration: none;
-}
 .tabs > li.selected > a {
-    background-color: #4b9ee6;
-/*     color: #fff; */
+    border-color: #428bca #428bca #fff;
+    color: #000;
+}
+#main {
+    border-top-left-radius: 0;
 }
 
 #TOC ul {
@@ -272,18 +276,6 @@ code > span.er { color: #ff0000; font-weight: bold; }
 
     #main {
         border: none !important;
-    }
-
-    #main > .panel-heading {
-        border: none !important;
-        padding: 0 !important;
-    }
-
-    h2.revision {
-        color: #000 !important;
-        font-size: inherit !important;
-        font-weight: normal !important;
-        font-style: italic !important;
     }
 
     #content {
