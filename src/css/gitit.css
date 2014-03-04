@@ -101,7 +101,7 @@ small.revision {
 }
 
 #TOC ul {
-    list-style: none inside decimal;
+    list-style: decimal inside;
     margin: 0;
     padding: 0;
 }
