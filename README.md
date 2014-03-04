@@ -15,3 +15,17 @@ Then:
 - If you are migrating an existing wiki, copy the relevant data (the
   `gitit-users` file, the `wikidata/` directory, etc) from the old directory to
   the new one.
+
+## Screenshots
+
+![1200px](screenshots/1200.png)
+
+This theme is responsive, the sidebar is pushed to the bottom on smaller screens.
+
+Here is the top of page at 480px:
+
+![480px](screenshots/480.png)
+
+And here is the bottom:
+
+![480px bottom](screenshots/480-bottom.png)
