@@ -61,6 +61,11 @@ h6 > a:link, h6 > a:active, h6 > a:hover, h6 > a:focus, h6 > a:visited {
     padding: 10px;
 }
 
+.revision {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 h2.revision {
     margin-top: 0;
 }
@@ -68,8 +73,6 @@ h2.revision {
 small.revision {
     display: inline-block;
     max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
     vertical-align: middle;
     white-space: nowrap;
 }
