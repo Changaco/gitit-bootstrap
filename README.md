@@ -20,9 +20,8 @@ Then:
 
 ![1200px](screenshots/1200.png)
 
-This theme is responsive, the sidebar is pushed to the bottom on smaller screens.
-
-Here is the top of page at 480px:
+On smaller screens, the sidebar is pushed to the bottom. Here is the top of the
+page at a width of 480px:
 
 ![480px](screenshots/480.png)
 
