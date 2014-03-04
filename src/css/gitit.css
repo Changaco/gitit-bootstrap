@@ -96,8 +96,10 @@ small.revision {
     border-color: #428bca #428bca #fff;
     color: #000;
 }
+
 #main {
     border-top-left-radius: 0;
+    clear: both;
 }
 
 #TOC ul {
@@ -276,6 +278,7 @@ code > span.er { color: #ff0000; font-weight: bold; }
 
     #main {
         border: none !important;
+        clear: none !important;  /* Work around a Firefox bug */
     }
 
     #content {

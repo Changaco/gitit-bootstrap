@@ -1,7 +1,3 @@
-<div class="hidden-print">
-    $tabs$
-</div>
-<span class="clearfix"></span>
 <div class="panel panel-primary" id="main">
     <div class="panel-body" id="content">
         <h1 class="pageTitle">
