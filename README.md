@@ -9,6 +9,7 @@ Run the following commands:
     mv templates templates.back
     wget https://github.com/Changaco/gitit-bootstrap/archive/master.tar.gz -O gitit-bootstrap.tar.gz
     tar -xaf gitit-bootstrap.tar.gz --strip-components 1
+    cp templates.back/footer.st templates
     ./build.sh
 
 Then restart gitit.
