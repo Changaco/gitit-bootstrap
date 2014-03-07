@@ -1,5 +1,6 @@
 A [gitit](https://github.com/jgm/gitit) theme based on [Bootstrap](http://getbootstrap.com/).
 
+
 ## How to install
 
 Run the following commands:
@@ -13,7 +14,10 @@ Run the following commands:
     cp templates.back/logo.st templates
     ./build.sh
 
-Then restart gitit.
+Then restart gitit, and purge its cache:
+
+    rm -r cache
+
 
 ## Screenshots
 
