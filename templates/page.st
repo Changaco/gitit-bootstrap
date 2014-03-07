@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>$pagetitle$ - $wikititle$</title>
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="$base$/css/bootstrap.min.css" />
         <link rel="stylesheet" href="$base$/css/gitit.min.css" />
         $if(feed)$
         <link href="$base$/_feed/" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
@@ -33,8 +33,8 @@
                 </div>
             </div>
         </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="$base$/js/jquery.min.js"></script>
+        <script src="$base$/js/bootstrap.min.js"></script>
         <script src="$base$/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script src="$base$/js/gitit.min.js"></script>
         $expire()$
