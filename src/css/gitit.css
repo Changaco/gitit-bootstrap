@@ -24,6 +24,18 @@ h6 > a:link, h6 > a:active, h6 > a:hover, h6 > a:focus, h6 > a:visited {
     margin-bottom: 20px;
 }
 
+#logo {
+    text-align: center;
+}
+
+#logo > a {
+    display: block !important;
+}
+
+#logo img {
+    max-width: 100%;
+}
+
 #sidebar {
     font-size: 90%;
 }
