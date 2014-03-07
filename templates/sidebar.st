@@ -1,8 +1,6 @@
 
-<div class="hidden-xs hidden-sm col-md-12" id="logo">
-    <a href="$base$/" alt="site logo" title="Go to top page">
-        <img src="$base$/img/logo.png" />
-    </a>
+<div class="hidden-xs hidden-sm col-md-12">
+    $logo()$
 </div>
 
 <div class="col-md-12">

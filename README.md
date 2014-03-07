@@ -10,6 +10,7 @@ Run the following commands:
     wget https://github.com/Changaco/gitit-bootstrap/archive/master.tar.gz -O gitit-bootstrap.tar.gz
     tar -xaf gitit-bootstrap.tar.gz --strip-components 1
     cp templates.back/footer.st templates
+    cp templates.back/logo.st templates
     ./build.sh
 
 Then restart gitit.
