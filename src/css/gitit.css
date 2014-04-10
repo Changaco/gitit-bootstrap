@@ -29,7 +29,15 @@ h6 > a:link, h6 > a:active, h6 > a:hover, h6 > a:focus, h6 > a:visited {
 }
 
 #logo > a {
+    color: #777;
     display: block !important;
+    font-family: serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#logo > a:hover {
+    text-decoration: none;
 }
 
 #logo img {
