@@ -37,6 +37,7 @@
         <script src="$base$/js/bootstrap.min.js"></script>
         <script src="$base$/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script src="$base$/js/gitit.min.js"></script>
+        $javascripts$
         $expire()$
         $getuser()$
     </body>
